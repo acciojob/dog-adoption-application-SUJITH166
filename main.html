@@ -8,17 +8,21 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form>
-		<input type="text" placeholder="Name" value="name"> <br>
-		<input type="number" placeholder="Phone Number" value="phone number"><br> 
-		<input type="text" placeholder="Address" value="address"><br>
-		<input type="checkbox" value="Have you ever lived with a Dog before?"><label>Have you ever lived with a Dog before?</label>
-		<br><select>
+	<form method="post">
+		<label for="name">Name</label>
+		<input type="text" placeholder="Name" id="name" name="name"> <br>
+		<label for="phone">Phone Number</label>
+		<input type="text" placeholder="Phone Number" id="phone"name="phone number"><br> 
+		<label for="address"></label>
+		<input type="text" placeholder="Address" id="address" name="address"><br>
+		<label for="checkbox"></label>
+		<input type="checkbox" id="checkbox" value="Have you ever lived with a Dog before?"><label>Have you ever lived with a Dog before?</label>
+		<br><select id="multiselect">
 			<option>aaa</option>
 			<option>bbb</option>
 			<option>ccc</option>
 		</select><br>
-		<button>submit</button>
+		<input type="submit" id="submit">
 	
 	
 </form>    <script type="text/javascript" src="./script.js">
